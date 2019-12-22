@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/c31user/AscendProjects/HelloWorld/build/cmake/projroot/src",
+  "command": "/usr/bin/g++  -DDevice_EXPORTS -I/home/c31user/AscendProjects/HelloWorld/src/. -I/home/c31user/.mindstudio/huawei/ddk/1.31.T12.B120/ddk/include/inc -I/home/c31user/.mindstudio/huawei/ddk/1.31.T12.B120/ddk/include/third_party/protobuf/include -I/home/c31user/.mindstudio/huawei/ddk/1.31.T12.B120/ddk/include/third_party/cereal/include -I/home/c31user/.mindstudio/huawei/ddk/1.31.T12.B120/ddk/include/libc_sec/include -I/home/c31user/AscendProjects/HelloWorld/src/Custom  -fPIC   -std=c++11 -DCPU_ONLY -o CMakeFiles/Device.dir/Custom/Custom.cpp.o -c /home/c31user/AscendProjects/HelloWorld/src/Custom/Custom.cpp",
+  "file": "/home/c31user/AscendProjects/HelloWorld/src/Custom/Custom.cpp"
+}
+]
