@@ -1,0 +1,13 @@
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/CMakeFiles/install/strip.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/CMakeFiles/install.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/CMakeFiles/install/local.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/CMakeFiles/list_install_components.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/CMakeFiles/edit_cache.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/CMakeFiles/rebuild_cache.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/projroot/src/CMakeFiles/install/strip.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/projroot/src/CMakeFiles/edit_cache.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/projroot/src/CMakeFiles/Device.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/projroot/src/CMakeFiles/rebuild_cache.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/projroot/src/CMakeFiles/list_install_components.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/projroot/src/CMakeFiles/install/local.dir
+/home/ascend/AscendProjects/jsoncppTest/build/cmake/projroot/src/CMakeFiles/install.dir
