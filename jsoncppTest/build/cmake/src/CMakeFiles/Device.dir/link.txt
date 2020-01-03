@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC   -shared -Wl,-soname,libDevice.so -o /home/c31user/AscendProjects/HelloWorld/build/outputs/libDevice.so CMakeFiles/Device.dir/Custom/Custom.cpp.o -lDvpp_api -lDvpp_jpeg_decoder -lDvpp_jpeg_encoder -lDvpp_vpc -lidedaemon 
