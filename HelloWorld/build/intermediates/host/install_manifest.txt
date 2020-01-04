@@ -1,0 +1,2 @@
+/home/ascend/AscendProjects/learningAtlas200DK/HelloWorld/build/intermediates/host/../../../run/out/main
+/home/ascend/AscendProjects/learningAtlas200DK/HelloWorld/build/intermediates/host/../../../run/out/libHost.so

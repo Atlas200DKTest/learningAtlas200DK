@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++     CMakeFiles/main.dir/Main.cpp.o  -o /home/ascend/AscendProjects/learningAtlas200DK/HelloWorld/build/outputs/main  -L/home/ascend/.mindstudio/huawei/ddk/1.31.T15.B150/RC/host-aarch64_Ubuntu16.04.3/lib -Wl,-rpath,/home/ascend/.mindstudio/huawei/ddk/1.31.T15.B150/RC/host-aarch64_Ubuntu16.04.3/lib: -lmatrixdaemon -lmmpa -lpthread -ldl -lrt 

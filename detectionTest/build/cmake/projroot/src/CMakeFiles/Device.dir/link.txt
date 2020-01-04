@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC   -shared -Wl,-soname,libDevice.so -o ../../outputs/libDevice.so CMakeFiles/Device.dir/Common/Common.cpp.o CMakeFiles/Device.dir/ImagePreProcess/ImagePreProcess.cpp.o CMakeFiles/Device.dir/MindInferenceEngine/MindInferenceEngine.cpp.o -lDvpp_api -lDvpp_jpeg_decoder -lDvpp_jpeg_encoder -lDvpp_vpc -lidedaemon 

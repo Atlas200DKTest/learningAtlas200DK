@@ -18,7 +18,7 @@
 #include "hiaiengine/api.h"
 
 uint32_t graphId = 0;
-int flag = 2;
+int flag = 1;
 std::mutex mt;
 
 /**
