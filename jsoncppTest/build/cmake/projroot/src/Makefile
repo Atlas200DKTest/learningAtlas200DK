@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/c31user/MindStudio-ubuntu/tools/cmake/bin/cmake
+CMAKE_COMMAND = /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/c31user/MindStudio-ubuntu/tools/cmake/bin/cmake -E remove -f
+RM = /home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/c31user/AscendProjects/HelloWorld/build/cmake
+CMAKE_SOURCE_DIR = /home/ascend/AscendProjects/jsoncppTest/build/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/c31user/AscendProjects/HelloWorld/build/cmake
+CMAKE_BINARY_DIR = /home/ascend/AscendProjects/jsoncppTest/build/cmake
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,19 +59,19 @@ CMAKE_BINARY_DIR = /home/c31user/AscendProjects/HelloWorld/build/cmake
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/c31user/MindStudio-ubuntu/tools/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/c31user/MindStudio-ubuntu/tools/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/home/c31user/MindStudio-ubuntu/tools/cmake/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ascend/MindStudio-ubuntu/tools/cmake/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -82,7 +82,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/c31user/MindStudio-ubuntu/tools/cmake/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -103,37 +103,37 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/c31user/MindStudio-ubuntu/tools/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/c31user/MindStudio-ubuntu/tools/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/c31user/MindStudio-ubuntu/tools/cmake/bin/cmake -P cmake_install.cmake
+	/home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/c31user/MindStudio-ubuntu/tools/cmake/bin/cmake -P cmake_install.cmake
+	/home/ascend/MindStudio-ubuntu/tools/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(CMAKE_COMMAND) -E cmake_progress_start /home/c31user/AscendProjects/HelloWorld/build/cmake/CMakeFiles /home/c31user/AscendProjects/HelloWorld/build/cmake/projroot/src/CMakeFiles/progress.marks
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(MAKE) -f CMakeFiles/Makefile2 projroot/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/c31user/AscendProjects/HelloWorld/build/cmake/CMakeFiles 0
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(CMAKE_COMMAND) -E cmake_progress_start /home/ascend/AscendProjects/jsoncppTest/build/cmake/CMakeFiles /home/ascend/AscendProjects/jsoncppTest/build/cmake/projroot/src/CMakeFiles/progress.marks
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(MAKE) -f CMakeFiles/Makefile2 projroot/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ascend/AscendProjects/jsoncppTest/build/cmake/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(MAKE) -f CMakeFiles/Makefile2 projroot/src/clean
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(MAKE) -f CMakeFiles/Makefile2 projroot/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(MAKE) -f CMakeFiles/Makefile2 projroot/src/preinstall
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(MAKE) -f CMakeFiles/Makefile2 projroot/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(MAKE) -f CMakeFiles/Makefile2 projroot/src/preinstall
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(MAKE) -f CMakeFiles/Makefile2 projroot/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 projroot/src/CMakeFiles/Device.dir/rule:
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(MAKE) -f CMakeFiles/Makefile2 projroot/src/CMakeFiles/Device.dir/rule
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(MAKE) -f CMakeFiles/Makefile2 projroot/src/CMakeFiles/Device.dir/rule
 .PHONY : projroot/src/CMakeFiles/Device.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ Device: projroot/src/CMakeFiles/Device.dir/rule
 
 # fast build rule for target.
 Device/fast:
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(MAKE) -f projroot/src/CMakeFiles/Device.dir/build.make projroot/src/CMakeFiles/Device.dir/build
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(MAKE) -f projroot/src/CMakeFiles/Device.dir/build.make projroot/src/CMakeFiles/Device.dir/build
 .PHONY : Device/fast
 
 Custom/Custom.o: Custom/Custom.cpp.o
@@ -177,7 +177,7 @@ Custom/Custom.o: Custom/Custom.cpp.o
 
 # target to build an object file
 Custom/Custom.cpp.o:
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(MAKE) -f projroot/src/CMakeFiles/Device.dir/build.make projroot/src/CMakeFiles/Device.dir/Custom/Custom.cpp.o
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(MAKE) -f projroot/src/CMakeFiles/Device.dir/build.make projroot/src/CMakeFiles/Device.dir/Custom/Custom.cpp.o
 .PHONY : Custom/Custom.cpp.o
 
 Custom/Custom.i: Custom/Custom.cpp.i
@@ -186,7 +186,7 @@ Custom/Custom.i: Custom/Custom.cpp.i
 
 # target to preprocess a source file
 Custom/Custom.cpp.i:
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(MAKE) -f projroot/src/CMakeFiles/Device.dir/build.make projroot/src/CMakeFiles/Device.dir/Custom/Custom.cpp.i
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(MAKE) -f projroot/src/CMakeFiles/Device.dir/build.make projroot/src/CMakeFiles/Device.dir/Custom/Custom.cpp.i
 .PHONY : Custom/Custom.cpp.i
 
 Custom/Custom.s: Custom/Custom.cpp.s
@@ -195,7 +195,7 @@ Custom/Custom.s: Custom/Custom.cpp.s
 
 # target to generate assembly for a file
 Custom/Custom.cpp.s:
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(MAKE) -f projroot/src/CMakeFiles/Device.dir/build.make projroot/src/CMakeFiles/Device.dir/Custom/Custom.cpp.s
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(MAKE) -f projroot/src/CMakeFiles/Device.dir/build.make projroot/src/CMakeFiles/Device.dir/Custom/Custom.cpp.s
 .PHONY : Custom/Custom.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/c31user/AscendProjects/HelloWorld/build/cmake && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ascend/AscendProjects/jsoncppTest/build/cmake && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

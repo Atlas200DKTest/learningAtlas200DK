@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d84da969-bcd4-41a9-84ca-e2aac6340819" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -12,6 +13,9 @@
       <change beforePath="$PROJECT_DIR$/build/cmake/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labels.json" beforeDir="false" />
     </list>
+=======
+    <list default="true" id="04637654-92be-4262-add3-61b1aea91baa" name="Default Changelist" comment="" />
+>>>>>>> 037565aac91021d8f704835121759160984bded0
     <ignored path="$PROJECT_DIR$/../out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,18 +24,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Custom/Custom.cpp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state>
               <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+=======
+            <state relative-caret-position="616">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+>>>>>>> 037565aac91021d8f704835121759160984bded0
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Custom/Custom.h">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1210">
               <caret line="55" selection-end-line="55" />
@@ -55,10 +65,14 @@
               <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
+=======
+          <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 037565aac91021d8f704835121759160984bded0
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.cpp">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2596">
               <caret line="118" column="27" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
@@ -73,11 +87,28 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.project">
+=======
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="723">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/graph.config">
+>>>>>>> 037565aac91021d8f704835121759160984bded0
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>flag</find>
@@ -103,6 +134,13 @@
     <option name="y" value="36" />
     <option name="width" value="1496" />
     <option name="height" value="902" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="736" />
+    <option name="y" value="152" />
+    <option name="width" value="1839" />
+    <option name="height" value="1379" />
+>>>>>>> 037565aac91021d8f704835121759160984bded0
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -113,6 +151,7 @@
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -121,6 +160,38 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+=======
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jsoncppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsoncppTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsoncppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsoncppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsoncppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsoncppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/host" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/host" />
+    </key>
+>>>>>>> 037565aac91021d8f704835121759160984bded0
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -134,13 +205,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ascend App.jsoncppTest">
-    <configuration name="HelloWorld" type="AscendAppConfigurationType" factoryName="Ascend App" hostip="192.168.221.139" ProfilingParams="{&quot;--ctrl_cpu_profiling&quot;:&quot;on&quot;,&quot;--llc_capacity&quot;:&quot;on&quot;,&quot;--RTS_Profiling&quot;:&quot;on&quot;,&quot;ProfilingStatus&quot;:&quot;off&quot;,&quot;peripheral_dvpp&quot;:&quot;on&quot;,&quot;--ai_core_profiling&quot;:&quot;on&quot;,&quot;--ddr_interval&quot;:&quot;100&quot;,&quot;--ai_core_profiling_interval&quot;:&quot;10&quot;,&quot;--HIAI_Engine_Profiling&quot;:&quot;on&quot;,&quot;--cpu_profiling_interval&quot;:&quot;20&quot;,&quot;--ai_core_profiling_mode&quot;:&quot;task-based&quot;,&quot;--ddr_profiling&quot;:&quot;on&quot;,&quot;peripheral_nic&quot;:&quot;on&quot;,&quot;--ai_cpu_profiling&quot;:&quot;on&quot;,&quot;--llc_bandwidth&quot;:&quot;off&quot;,&quot;--OME_Profiling&quot;:&quot;on&quot;,&quot;--peripheral_profiling&quot;:&quot;nic,dvpp&quot;,&quot;--ddr_master_id&quot;:&quot;0&quot;,&quot;--ts_cpu_profiling&quot;:&quot;on&quot;,&quot;--peripheral_profiling_interval&quot;:&quot;10&quot;,&quot;--llc_interval&quot;:&quot;100&quot;}">
-      <method v="2">
-        <option name="ToolBeforeAscendAppRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="jsoncppTest" type="AscendAppConfigurationType" factoryName="Ascend App" hostip="192.168.221.139" ProfilingParams="{&quot;--ctrl_cpu_profiling&quot;:&quot;on&quot;,&quot;--llc_capacity&quot;:&quot;on&quot;,&quot;--RTS_Profiling&quot;:&quot;on&quot;,&quot;ProfilingStatus&quot;:&quot;off&quot;,&quot;peripheral_dvpp&quot;:&quot;on&quot;,&quot;--ai_core_profiling&quot;:&quot;on&quot;,&quot;--ddr_interval&quot;:&quot;100&quot;,&quot;--ai_core_profiling_interval&quot;:&quot;10&quot;,&quot;--HIAI_Engine_Profiling&quot;:&quot;on&quot;,&quot;--cpu_profiling_interval&quot;:&quot;20&quot;,&quot;--ai_core_profiling_mode&quot;:&quot;task-based&quot;,&quot;--ddr_profiling&quot;:&quot;on&quot;,&quot;peripheral_nic&quot;:&quot;on&quot;,&quot;--ai_cpu_profiling&quot;:&quot;on&quot;,&quot;--llc_bandwidth&quot;:&quot;off&quot;,&quot;--OME_Profiling&quot;:&quot;on&quot;,&quot;--peripheral_profiling&quot;:&quot;nic,dvpp&quot;,&quot;--ddr_master_id&quot;:&quot;0&quot;,&quot;--ts_cpu_profiling&quot;:&quot;on&quot;,&quot;hasError&quot;:&quot;false&quot;,&quot;--peripheral_profiling_interval&quot;:&quot;10&quot;,&quot;--llc_interval&quot;:&quot;100&quot;}">
+  <component name="RunManager">
+    <configuration name="jsoncppTest" type="AscendAppConfigurationType" factoryName="Ascend App" hostip="">
       <method v="2">
         <option name="ToolBeforeAscendAppRunTask" enabled="false" />
       </method>
@@ -151,49 +217,70 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d84da969-bcd4-41a9-84ca-e2aac6340819" name="Default Changelist" comment="" />
-      <created>1575255427324</created>
+      <changelist id="04637654-92be-4262-add3-61b1aea91baa" name="Default Changelist" comment="" />
+      <created>1578064096920</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575255427324</updated>
+      <updated>1578064096920</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="96" y="-6" width="2616" height="1698" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12693499" />
+=======
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25038698" />
+>>>>>>> 037565aac91021d8f704835121759160984bded0
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Log" />
+      <window_info anchor="bottom" id="Output" weight="0.3237548" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.33034572" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32880098" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Log" order="7" />
       <window_info anchor="bottom" id="Output" order="8" weight="0.12676056" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Build" order="12" visible="true" weight="0.3284251" />
+=======
+>>>>>>> 037565aac91021d8f704835121759160984bded0
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/HelloWorld.iml" />
     <entry file="file://$PROJECT_DIR$/run/out/graph.config" />
     <entry file="file://$PROJECT_DIR$/src/Custom/Custom.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Custom/Custom.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+>>>>>>> 037565aac91021d8f704835121759160984bded0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Custom/Custom.h">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1210">
           <caret line="55" selection-end-line="55" />
@@ -243,5 +330,22 @@
         </settings>
       </state>
     </states>
+=======
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 037565aac91021d8f704835121759160984bded0
   </component>
 </project>

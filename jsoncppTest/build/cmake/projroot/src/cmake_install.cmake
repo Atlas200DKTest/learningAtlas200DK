@@ -1,4 +1,4 @@
-# Install script for directory: /home/c31user/AscendProjects/HelloWorld/src
+# Install script for directory: /home/ascend/AscendProjects/jsoncppTest/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/out/libDevice.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/out" TYPE SHARED_LIBRARY FILES "/home/c31user/AscendProjects/HelloWorld/build/cmake/outputs/libDevice.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/out" TYPE SHARED_LIBRARY FILES "/home/ascend/AscendProjects/jsoncppTest/build/cmake/outputs/libDevice.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/out/libDevice.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/out/libDevice.so")
     if(CMAKE_INSTALL_DO_STRIP)

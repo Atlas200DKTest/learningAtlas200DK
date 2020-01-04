@@ -27,9 +27,6 @@ std::mutex mt;
 */
 HIAI_StatusT CustomDataRecvInterface::RecvData(const std::shared_ptr<void>& message) {
     std::shared_ptr<std::string> data =  std::static_pointer_cast<std::string>(message);
-
-    std::cout << "data received in CustomDataRecvInterface::RecvData is" << *data << std::endl;
-
     mt.lock();
     flag--;
     mt.unlock();
@@ -40,7 +37,6 @@ HIAI_StatusT CustomDataRecvInterface::RecvData(const std::shared_ptr<void>& mess
 HIAI_StatusT DeviceDisconnectCallBack() {
 	mt.lock();
 	flag = 0;
-	std::cout << "DeviceDisconnectCallBack" << std::endl;
 	mt.unlock();
 	return HIAI_OK;
 }
@@ -70,7 +66,6 @@ HIAI_StatusT HIAI_InitAndStartGraph() {
     target_port_config.engine_id = 611;
     target_port_config.port_id = 0;
     graph->SetDataRecvFunctor(target_port_config, std::shared_ptr<CustomDataRecvInterface>(new CustomDataRecvInterface()));
-    // this should be for the scene: the device is disconnected with host. for RC, it won't happen.
     graph->RegisterEventHandle(hiai::HIAI_DEVICE_DISCONNECT_EVENT, DeviceDisconnectCallBack);
 	return HIAI_OK;
 }
@@ -103,10 +98,6 @@ int main(int argc, char* argv[]) {
     engineId.engine_id = 611;
     engineId.port_id = 0;
     std::shared_ptr<std::string> data(new std::string);
-    *data = "Hello Wrold!";
-
-
-
     ret = graph->SendData(engineId, "string", std::static_pointer_cast<void>(data));
     if (ret != HIAI_OK) {
         HIAI_ENGINE_LOG("[Main] Failed to send data.");;
