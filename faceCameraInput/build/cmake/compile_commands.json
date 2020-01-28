@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ascend/AscendProjects/faceCameraInput/build/cmake/projroot/src",
+  "command": "/usr/bin/g++  -DDevice_EXPORTS -I/home/ascend/AscendProjects/faceCameraInput/src/. -I/home/ascend/.mindstudio/huawei/ddk/1.31.T15.B150/ddk/include/inc -I/home/ascend/.mindstudio/huawei/ddk/1.31.T15.B150/ddk/include/third_party/protobuf/include -I/home/ascend/.mindstudio/huawei/ddk/1.31.T15.B150/ddk/include/third_party/cereal/include -I/home/ascend/.mindstudio/huawei/ddk/1.31.T15.B150/ddk/include/libc_sec/include -I/home/ascend/AscendProjects/faceCameraInput/src/Custom  -fPIC   -std=c++11 -DCPU_ONLY -o CMakeFiles/Device.dir/Custom/Custom.cpp.o -c /home/ascend/AscendProjects/faceCameraInput/src/Custom/Custom.cpp",
+  "file": "/home/ascend/AscendProjects/faceCameraInput/src/Custom/Custom.cpp"
+}
+]

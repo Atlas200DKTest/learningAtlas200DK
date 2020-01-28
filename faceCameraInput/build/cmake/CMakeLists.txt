@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.5.1)
+set(CMAKE_C_COMPILER "gcc")
+set(CMAKE_C_COMPILER_TARGET "")
+set(CMAKE_CXX_COMPILER "g++")
+set(CMAKE_CXX_COMPILER_TARGET "")
+project(faceCameraInput)
+set(CMAKE_EXPORT_COMPILE_COMMANDS "ON")
+add_subdirectory("../../src" "./projroot/src")
